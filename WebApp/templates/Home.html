@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sports Classification System</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .header {
+        	font-family: 'Trebuchet MS', sans-serif;
+        	font-size: 50px;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 50px;
+            color: rgb(0,0,0);
+        }
+        .button {
+            font-size: 20px;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            color: rgb(255,255,255);
+        }
+        .b1 {
+        	background-color: rgb(95,158,160);
+        }
+        .b2 {
+        	background-color: rgb(222,184,135);
+        }
+        .b1:hover {
+  			background-color: rgb(85,148,150);
+		}
+        .b2:hover {
+        	background-color: rgb(212,174,125);
+        }
+        
+
+    </style>
+    <script>
+        function showImagePage() {
+            window.location.href = "Image.HTML";
+        }
+        function showVideoPage(){
+            window.location.href = "Video.HTML";
+        }
+    </script>
+</head>
+<body>
+	<div class = "header">
+    	<p>Sports Classification</p>
+    </div>
+    <div>
+        <div class="navbar-nav">
+            <a  class = "button b1" href="/Video" >Video Classification</a>
+            <a  class = "button b2" href="/Image">Image Classification</a>
+          </div>
+        
+    </div>
+</body>
+</html>
+
